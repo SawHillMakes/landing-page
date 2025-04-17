@@ -1,0 +1,13 @@
+body
+{
+    min-height: 100vh;
+    margin: 0;
+}
+
+.top-container
+{
+    display: flex;
+    background-color: #1F2937;
+    height: 300px;
+}
+
