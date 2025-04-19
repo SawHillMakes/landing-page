@@ -1,33 +1,117 @@
 body
 {
-    min-height: 100vh;
     margin: 0;
-    color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .top-container
 {
     display: flex;
-    background-color:blue;
+    background-color: black;
     height: 400px;
+    padding-bottom:0;
+    margin: 0;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.header-img
+.topper
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 350px;
+    align-items: center;
+}
+
+.text-and-button
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.top-header
+{
+    font-size: 60px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+.top-body
+{
+    padding-right: 100px;
+    padding-left: 6px;
+}
+
+.size-big-img
+{
+    height: 350px;
+    width: 650px;
+    padding-right: 50px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+
+}
+
+.top-button
+{
+    height: 40px;
+    width: 140px;
+    margin:0px;
+    padding: 0;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color:#f8f8f8;
+    color: black;
+}
+button:hover
+{
+    background-color: #e43c0d;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px #580c09;
+}
+
+.header-logo-sizing
 {
     border-radius: 50%;
-    height: 100px;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
 }
 
-button
+.header-logo-sizing:hover
 {
-    height: 30px;
-    width: 50px;
-}
-
-.big-img
-{
-    height: 200px;
-    width: 400px;
+    transform: scale(1.1);
+    box-shadow: 5px 3px 8px 15px #360907;
 }
 
 .quote-container
@@ -35,8 +119,15 @@ button
     display: flex;
     background-color: red;
     justify-content: space-between;
-
+    margin: 0;
+    padding: 0;
     
+}
+
+li:hover
+{
+    transform: scale(1.1);
+    box-shadow: 8px 10px 15px #861713;
 }
 
 .sign-up-box
@@ -44,6 +135,8 @@ button
     display: flex;
     background-color: green;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -54,14 +147,21 @@ button
 
 .img-container
 {
-    background-color: blueviolet;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    color: brown;
 }
 
 .img-class
 {
-    height: 300px;
+    height: 320px;
     width: 230px;
 
 }
+
+.img-header
+{
+    display: flex;
+    justify-content: center;
+}
+
